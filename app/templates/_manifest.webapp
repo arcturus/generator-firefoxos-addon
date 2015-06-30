@@ -1,0 +1,17 @@
+{
+  "name": "<%= name %>",
+  "description": "<%= description %>",
+  "customizations": [
+    {
+      "filter": "<%= filter %>",
+      "scripts": [
+        "addon.js",
+      ],
+      "stylesheets": [
+        "style.css"
+      ]
+    }
+  ],
+  "role": "addon",
+  "type": "certified"
+}

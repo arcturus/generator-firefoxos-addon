@@ -1,0 +1,31 @@
+{
+  "name": "generator-firefoxos-addon",
+  "version": "0.0.1",
+  "description": "FirefoxOS Addong generator",
+  "license": "MPL",
+  "main": "app/index.js",
+  "repository": "arcturus/generator-firefoxos-addon",
+  "author": {
+    "name": "Francisco Jordano",
+    "email": "francisco@jordano.es",
+    "url": "https://github.com/arcturus"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "change-case": "^2.3.0",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
