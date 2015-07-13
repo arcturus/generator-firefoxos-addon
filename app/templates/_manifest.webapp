@@ -5,7 +5,7 @@
     {
       "filter": "<%= filter %>",
       "scripts": [
-        "addon.js",
+        "addon.js"
       ],
       "stylesheets": [
         "style.css"
